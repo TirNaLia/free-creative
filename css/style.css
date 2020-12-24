@@ -809,29 +809,598 @@ a:hover #inst {
 
 @media (max-width: 1199px) {
     body {
-    font-size: 16px;
-}
+        font-size: 16px;
+    }
+
+    .catalog-img {
+        width: 100%;
+    }   
+
+/*HEADER*/
+    
+    .header {
+        background-image: url(../images/header-bg-laptop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }     
     
     .header-top {
-    padding-top: 19px;
-    margin-bottom: 203px;
-}
+        padding-top: 30px;
+        margin-bottom: 223px;
+    }
+   
+    .logo p {
+        color: #fff;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    
+    .header-contacts {
+        padding: 9px 29px;
+        margin-left: 30px;
+        margin-right: 34px;
+        border: 1px solid;
+        border-radius: 15px;
+        font-size: 16px;
+        transition: .2s linear;
+    }
+    
+    .socials a:first-of-type {
+        margin-right: 21px;
+    }
     
     .header-promo-title {
         font-size: 45px;
         line-height: 45px;
+        margin-bottom: 56px;
+        margin-left: 0px;
     }
+
+    .header-promo-links {
+        padding-bottom: 160px;
+    }   
+    
+     .portfolio {
+        margin-right: 26px;
+    }   
+
+/*SECTION FEATURES*/
+
+/*ROW-FEATURES*/
+  
+    .features {
+        margin-bottom: 122px;
+    }     
     
     .catalog-img {
         width: 100%;
 }
     .features-title {
         font-size: 34px;
+        padding-top: 80px;
+        margin-bottom: 12px;
     }
-    
+
     .vilata-style-img {
         width: 100%;
         height: 308px;
+    }     
+    
+    .features-describe {
+        padding-top: 134px;
+        line-height: 140%;
+    }     
+    
+    .main-features-title {
+        font-size: 45px;
+        line-height: 45px;
+    }    
+
+    .main-features {
+        margin-bottom: 39px;
+    }    
+    
+/*ROW-MAIN-FEATURES-NUMBERS*/ 
+  
+    .main-features-numbers {
+        margin-bottom: 100px;
+    }    
+
+    .main-features-numbers div h3 {
+        font-size: 45px;
+        line-height: 45px;
+    }   
+
+    .main-features-numbers div span {
+        line-height: 20px;
+        padding-top: 23px;
+        padding-left: 12px;
+    }
+
+    .main-features-numbers div:nth-of-type(3) span,
+    .main-features-numbers div:nth-of-type(4) span {
+        padding-top: 23px;
+        padding-left: 13px;
+        line-height: 20px;
     }
 
 
+    .main-features-numbers div p {
+        display: flex;
+        flex-direction: column;
+        line-height: 18px;
+        padding-top: 24px;
+        padding-left: 14px;
+    }
+
+    .main-features-numbers div:last-of-type span {
+        font-size: 14px;
+        padding: 1px 0 0 0;
+        line-height: 18px;
+    }   
+
+    /*ROW-CATALOG-PRICE*/   
+
+    .catalog-price-title {
+        font-size: 34px;
+        line-height: 37px;
+        margin-bottom: 13px;
+    }  
+
+    .catalog-price-img {
+        max-width: 530px;
+        max-height: 330px
+    }
+
+    .catalog-price-text p:first-child {
+        margin-top: 43px;
+        margin-bottom: 22px;
+        max-width: 400px;
+    }
+
+    .catalog-price div p:last-child {
+        padding: 5px 10px 6px 9px;
+        margin-top: 16px;
+        margin-left: -10px;
+        color: white;
+        background-color: #2B59C3;
+        border-radius: 5px;
+    }
+
+    /*SECTION CATALOG*/
+    .catalog-section {
+        padding-top: 122px;
+    }
+
+    .catalog-title {
+        font-size: 55px; 
+    }
+
+    .catalog-btn {
+        padding: 23px 45px;
+        border: 1px solid #000;
+        border-radius: 40px;
+        color: black;
+        margin-left: 48px;
+        font-size: 18px;
+    }
+    
+    .amperia {
+        margin-bottom: 42px;
+    }
+
+    .amperia-title {
+        font-size: 45px; !important
+    }
+
+    .amperia-btn {
+        padding: 23px 47px;
+        border: 1px solid #000;
+        border-radius: 40px;
+        color: black;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+
+    .life-care {
+        margin-top: 53px;
+        margin-bottom: 38px;
+    }
+    
+    .vilata {
+        margin-top: 51px;
+        margin-bottom: 38px;
+    }
+    
+    .vilata-btn {
+        padding: 23px 48px;
+        border: 1px solid #000;
+        border-radius: 40px;
+        color: black;
+        margin-left: 69px;
+        font-size: 18px;
+    }
+    
+    .coral-black {
+        margin-top: 52px;
+        margin-bottom: 38px;
+    }
+    
+    .show-more-btn {
+        margin-top: 21px;
+    }
+    
+    .show-more-btn a {
+        font-size: 20px;
+        line-height: 22px;
+        padding: 22px 44px;
+        margin-left: 39px;
+    }
+    
+/*BONUS-AND-APPLICATION-SECTION*/
+    .bonus-and-application-section {
+        padding-top: 124px;
+    }
+    
+    .bonus {
+        margin-bottom: 85px;
+    }
+    
+    .bonus-title {
+        margin-bottom: 17px;
+    }
+    
+    .bonus-img {
+        max-width: 530px;
+        max-height: 366px;
+    }
+    
+    .bonus-text {
+        font-size: 20px;
+        margin-top: 59px;
+        margin-bottom: 20px;
+}
+    .bonus-text-part-1 {
+        margin-top: 19px;
+    }
+        
+    .bonus-text-part-1, .bonus-text-part-2 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .application-title {
+        font-size: 34px;
+        line-height: 110%;
+        margin-bottom: 11px;
+    }
+    
+    .application-text {
+        font-size: 20px;
+    }
+    
+    .application-form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .username-input, .tel-input {
+        padding: 20px 0px 18px 19px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 140%;
+        max-width: 450px;
+        width: 450px;
+    }
+    
+    .username-input {
+        margin-right: 30px;
+    }
+    
+    .tel-input {
+        margin-right: 0;
+    }
+    
+    .checkbox-input {
+        width: 100%;
+        margin-bottom: 26px;
+    }
+    
+    .btn-submit {
+        padding: 21px 50px;
+        margin-left: 0;
+        order: 4;
+    }
+    
+    /*STEPS-SECTION*/
+    
+    .steps-section {
+        padding-top: 102px;
+    }
+    
+    .steps-titles {
+        font-size: 20px;
+    }
+    
+    .steps-row-1 {
+        margin-bottom: 26px;
+    }
+    
+    .steps-title-row {
+        margin-bottom: 74px;
+    }
+    
+    .steps-images {
+        margin-bottom: 24px;
+    }
+    
+    .steps-text-title {
+        margin-top: 6px;
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 18px;
+        }
+
+    .steps-text {
+        max-width: 160px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .steps-title {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    
+    .steps-row-1 div:nth-child(3) {
+        margin-left: -29px;
+    }
+    
+    .steps-row-1 div:nth-child(4) {
+        padding-left: 95px;
+    }
+    
+    .steps-row-2 {
+        margin-bottom: 0;
+    }
+    
+    .steps-row-2 p {
+        margin-top: 0;
+    }
+    
+    .steps-row-2 div:nth-child(3),
+    .steps-row-3 div:nth-child(3) {
+        margin-left: -30px;
+    }
+    
+    .steps-row-3 p {
+        margin-top: 0;
+    }
+    
+    /*FEATURES-TABLE-SECTION*/
+
+    .features-table-section {
+        padding-top: 127px;
+        padding-bottom: 99px;
+    }
+    
+    .features-table-titles {
+        margin-left: -15px;
+        padding: 115px 0px 52px 14px;
+    }
+    
+    .philosophy {
+        margin-bottom: 177px;
+    }
+    
+    .design-level {
+        margin-bottom: 44px;
+    }
+    
+    .cost {
+        margin-bottom: 120px;
+    }
+    
+    .features-table-titles h3 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    
+    .freelancer-title,
+    .free-creative-title,
+    .others-title {
+        font-size: 34px;
+        line-height: 37px;
+    }
+    
+    .freelancer p,
+    .free-creative p,
+    .others p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .freelancer-title {
+        margin-bottom: 87px;
+    }
+    
+    .freelancer-philosophy {
+        padding-bottom: 111px;  
+    }
+    
+    .freelancer-attitude {
+        padding-bottom: 129px;
+    }
+    
+    .free-creative {
+        padding: 13px 16px 13px 13px;
+    }
+    
+    .free-creative-title {
+        margin-bottom: 88px;
+    }
+    
+    .free-creative-philosophy {
+        padding-bottom: 57px;
+    }
+    
+    .others-philosophy {
+        padding-bottom: 22px;
+    }
+    
+    .others-attitude {
+        padding-bottom: 21px;
+    }
+    
+    /*QUALITY-ASSURANCE-SECTION*/
+
+    .quality-assurance-section {
+        background-image: url("../images/quality-assurance-bg-1024.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 101px;
+    }
+
+    .quality-assurance-title {
+        font-size: 45px;
+        line-height: 45px;
+        margin-bottom: 68px;
+    }
+
+    .quality-assurance-numbers p {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    
+    .quality-assurance-text p {
+        margin-top: -22px;
+        padding-bottom: 64px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .quality-assurance-number-1 {
+        margin-right: 157px;
+    }
+
+    .quality-assurance-number-2 {
+        margin-right: 154px;
+    }
+
+    .quality-assurance-number-3,
+    .quality-assurance-number-4 {
+        margin-right: 157px;
+    }
+    
+    .quality-assurance-text-1 {
+        margin-right: 32px;
+    }
+    
+    .quality-assurance-text-2 {
+        max-width: 143px;
+        margin-right: 39px;
+    }
+    
+    .quality-assurance-text-3 {
+        max-width: 142px;
+        margin-right: 42px;
+    }
+    
+    .quality-assurance-text-4 {
+        max-width: 138px;
+        margin-right: 0px;
+    }
+    
+    .quality-assurance-text-5 {
+        max-width: 186px;
+        padding-left: 44px;
+    }
+    
+    /*FEEDBACK-SECTION*/
+
+    .feedback-section {
+        padding-top: 102px;
+    }
+
+    .feedback-title {
+        margin-bottom: 29px;
+    }
+    
+    .tel-contact {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 17px;
+    }
+    
+    .feedback-title,
+    .contacts-title {
+        font-size: 34px;
+        line-height: 37px;
+    }
+    
+    
+    .feedback-username-input,
+    .feedback-tel-input {
+        font-family: inherit;
+        padding: 16px 194px 22px 19px;
+        font-size: 16px;
+        line-height: 22px;
+        border: 1px solid #181818;
+        border-radius: 10px;
+        max-width: 370px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    
+    .feedback-username-input,
+    .feedback-tel-input {
+        margin-bottom: 8px;
+    }
+    
+    .feedback-checkbox-input {
+        margin-bottom: 24px;
+    }
+    
+    .feedback-checkbox-input span {
+        margin-left: 7px;
+    }
+    
+    /*FOOTER*/
+
+    .footer {
+        padding-top: 119px;
+        padding-bottom: 20px;
+    }
+    
+    .footer-title {
+        font-size: 34px;
+        line-height: 37px;
+        margin-bottom: 28px;
+    }
+    
+    .footer-column-1{
+        padding-left: 8px;
+        margin-bottom: 86px;
+    }
+    
+    .footer-column-2 {
+        margin-top: 64px;
+        padding-left: 7px;
+    }
+    
+    .footer-column-3 {
+        margin-top: 65px;
+    }
+    
+    .footer-column-4 {
+        margin-top: 66px;
+        padding-left: 9px;
+    }
+    
+    .copyright {
+        min-width: 212px;
+    }
+}
