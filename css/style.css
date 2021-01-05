@@ -34,6 +34,10 @@ a:hover {
     text-decoration: none;
 }
 
+.catalog-img {
+    width: 100%;
+} 
+
 /*HEADER*/
 
 .header {
@@ -95,6 +99,27 @@ a:hover #inst {
     transition: .2s linear;
 }
 
+.hb-menu {
+    display: none;
+    width: 30px;
+    height: 18px;
+    background-image: url(../images/hb-menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.hb-menu-active {
+    width: 30px;
+    height: 18px;
+    background-image: url(../images/hb-menu-active.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+
 .header-promo-title {
     font-size: 55px;
     margin-bottom: 36px;
@@ -119,6 +144,15 @@ a:hover #inst {
     background-color: #fff;
     border-radius: 40px;
     color: black;
+    border: none;
+}
+
+.header-feedback-btn:hover {
+    color: #2B59C3;
+}
+
+.header-feedback-btn:focus {
+    outline: none;
 }
 
 .portfolio {
@@ -225,6 +259,10 @@ a:hover #inst {
     margin-bottom: 13px;
 }
 
+.catalog-price-img-2 {
+    display: none;
+}
+
 
 /*SECTION CATALOG*/
 .catalog-section {
@@ -320,6 +358,10 @@ a:hover #inst {
     font-size: 38px;
     line-height: 110%;
     margin-bottom: 13px;
+}
+
+.bonus-img-2 {
+    display: none;
 }
 
 .bonus-text {
@@ -592,6 +634,14 @@ a:hover #inst {
     margin-bottom: 30px;
 }
 
+.philosophy-second,
+.design-level-second,
+.cost-second,
+.attitude-second,
+.time-second {
+    display: none;
+}
+
 /*QUALITY-ASSURANCE-SECTION*/
 
 .quality-assurance-section {
@@ -812,10 +862,6 @@ a:hover #inst {
         font-size: 16px;
     }
 
-    .catalog-img {
-        width: 100%;
-    }   
-
 /*HEADER*/
     
     .header {
@@ -831,7 +877,6 @@ a:hover #inst {
     }
    
     .logo p {
-        color: #fff;
         font-size: 14px;
         margin-top: 8px;
     }
@@ -1402,5 +1447,610 @@ a:hover #inst {
     
     .copyright {
         min-width: 212px;
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+/*HEADER*/
+    
+    .header {
+        background-image: url(../images/header-bg-tablet.png);
+    }
+    
+    .header-top {
+        padding-top: 20px;
+        margin-bottom: 351px;
+    }
+    
+    .logo img {
+        margin-right: 20px;
+    }
+    
+    .logo p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 12px;
+    }
+    
+    .header-contacts,
+    .socials {
+        display: none;
+    }
+    
+    .hb-menu {
+        display: block;
+        margin-left: 60px;
+    }
+    
+    .header-promo-title span {
+        padding: 16px 32px 14px 19px;
+    }
+    
+    .header-promo-title span:nth-child(2),
+    .header-promo-title span:nth-child(3),
+    .header-promo-title span:nth-child(4) {
+        padding-top: 0;
+    }
+    
+    .header-promo-links {
+        padding-bottom: 303px;
+    }
+    
+    /*FEATURES-SECTION*/
+    
+    .features-title {
+        font-size: 34px;
+        padding-top: 100px;
+        margin-bottom: 8px;
+    }
+    
+    .vilata-style-img {
+        height: 302px;
+    }
+    
+    .features-describe {
+        padding-top: 35px;
+        max-width: 460px;
+    }
+    
+    .main-features-title {
+        max-width: 620px;
+    }
+    
+    .main-features {
+        margin-bottom: 42px;
+    }
+    
+    .main-features-numbers {
+        margin-bottom: 118px;
+    }
+    
+    .main-features-numbers div span {
+        padding-top: 0;
+        line-height: 20px;
+    }
+    
+    .main-features-numbers div:nth-child(4) {
+        margin-top: 75px;
+    }
+    
+    .main-features-numbers div:nth-child(5) {
+        margin-top: 75px;
+    }
+    
+    .main-features-numbers div:nth-child(1) span {
+        max-width: 83px;
+    }
+    
+    .main-features-numbers div:nth-child(2) span {
+        max-width: 107px;
+    }
+    
+    .main-features-numbers div:nth-child(3) span {
+        max-width: 122px;
+        padding-top: 0;
+    }
+    
+    .main-features-numbers div:nth-child(5) span {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .main-features-numbers div p {
+        padding-top: 0;
+        
+    }
+    
+    .catalog-price-img {
+        display: none;
+    }
+    
+    .catalog-price-img-2 {
+        display: block;
+        width: 100%;
+    }
+    
+    .catalog-price-text {
+        max-width: 570px;
+    }
+    
+    .catalog-price-text p:first-child {
+        margin: 26px 0 22px 2px;
+        max-width: 540px;
+    }
+    
+    .catalog-price-text p:nth-child(2) {
+        margin-left: 2px;
+        max-width: 540px;
+    }
+    
+    .catalog-price div p:last-child {
+        padding: 10px 10px 11px 17px;
+        margin-top: 11px;
+        margin-left: -15px;
+    }
+    
+    /*SECTION CATALOG*/
+    .catalog-section {
+        padding-top: 121px;
+    }
+    
+    .catalog-title {
+        font-size: 45px;
+    }
+    
+    .catalog-btn {
+        padding: 22px 47px 19px 47px;
+    }
+    
+    .amperia {
+        margin-bottom: 30px;
+    }
+    
+    .amperia-btn {
+        margin-left: -10px;
+    }
+    
+    .catalog-text {
+        padding-top: 6px;
+    }
+    
+    .life-care,
+    .vilata,
+    .coral-black {
+        margin-top: 49px;
+        margin-bottom: 29px;
+    }
+    
+    .aqlifecare-btn {
+        margin-left: -66px;
+    }
+    
+    .vilata-btn {
+        margin-left: -64px;
+    }
+    
+    .coral-black-btn {
+        margin-left: -71px;
+    }
+    
+    .coral-black-text {
+        max-width: 233px;
+        line-height: 25px;
+        font-size: 18px;
+        padding-top: 8px;
+    }
+    
+    .show-more-btn {
+        margin-top: 19px;
+    }
+    
+    .show-more-btn a {
+        margin-left: -8px;
+    }
+    
+    /*BONUS-AND-APPLICATION-SECTION*/
+    
+    .bonus-and-application-section {
+        padding-top: 120px;
+    }
+    
+    .bonus {
+        margin-bottom: 70px;
+    }
+    
+    .bonus-title {
+        font-size: 34px;
+        margin-bottom: 14px;
+    }
+    
+    .bonus-img {
+        display: none;
+    }
+    
+    .bonus-img-2 {
+        display: block;
+    }
+    
+    .bonus-text {
+        max-width: 495px;
+        padding: 10px 0 13px 15px;
+        margin: 17px 0 25px -15px;
+    }
+    
+    .bonus-text p:first-child {
+        font-family: 'Kopeek-Book';
+    }
+    
+    .bonus-text-part-1 {
+        margin-top: 22px;
+    }
+    
+    .bonus-text-part-2 {
+        max-width: 460px;
+    }
+    
+    .application-title {
+        margin-bottom: 14px;
+    }
+    
+    .application-text {
+        margin-left: 0;
+        margin-bottom: 38px;
+    }
+    
+    .username-input {
+        margin-bottom: 18px;
+    }
+    
+    .checkbox-input {
+        margin-bottom: 27px;
+    }
+    
+    .checkbox-input span {
+        margin-left: 7px;
+    }
+    
+    .btn-submit {
+        padding: 21px 46px;
+    }
+    
+    /*STEPS-SECTION*/
+
+    .steps-section {
+        padding-top: 81px;
+    }
+    
+    .steps-title-row {
+        margin-bottom: 30px;
+    }
+    
+    .steps-title {
+        max-width: 375px;
+    }
+    
+    .steps-images {
+        margin-bottom: 15px;
+    }
+    
+    .steps-text-title {
+        margin-top: 16px;
+    }
+    
+    .steps-row-1 {
+        margin-bottom: 48px;
+    }
+    
+    .steps-row-1 div:nth-child(3) {
+        margin-left: 0;
+    }
+    
+    .steps-row-1 div:nth-child(3) p:nth-child(2) {
+        max-width: 202px;
+    }
+    
+    .steps-row-1 div:nth-child(4) {
+        padding-left: 15px;
+    }
+    
+    .steps-row-1 div:nth-child(4) p:nth-child(1) {
+        max-width: 120px;
+    }
+    
+    .steps-row-1 div:nth-child(4) p:nth-child(2) {
+        max-width: 167px;
+    }
+    
+    .steps-row-2 {
+        margin-bottom: 45px;
+    }
+    
+    .steps-row-2 p {
+        margin-top: 16px;
+    }
+    
+    .steps-row-2 div:nth-child(3) {
+        margin-left: 0;
+    }
+    
+    .steps-row-2 div:nth-child(3) p:nth-child(2) {
+        max-width: 202px;
+    }
+    
+    .steps-row-2 div:nth-child(4) p {
+        max-width: 165px;
+    }
+    
+    .steps-row-3 p {
+        margin-top: 18px;
+    }
+    
+    .steps-row-3 div:nth-child(3) {
+        margin-left: 0;
+    }
+    
+    .steps-row-3 div:nth-child(3) p:nth-child(1) {
+        max-width: 94px;
+    }
+    
+    .steps-row-3 div:nth-child(3) p:nth-child(2) {
+        max-width: 198px;
+    }
+    
+    /*FEATURES-TABLE-SECTION*/
+    
+    .features-table-section {
+        padding-top: 83px;
+    }
+    
+    .features-table {
+        position: relative;
+    }
+    
+    .features-table-titles {
+        display: none;
+    }
+    
+    .freelancer-title {
+        margin-bottom: 137px;
+    }
+    
+    .freelancer p {
+        max-width: 155px;
+    }
+    
+    .freelancer-philosophy {
+        margin-bottom: 50px;
+    }
+    
+    .freelancer-design-level {
+        margin-bottom: 67px;
+    }
+    
+    .freelancer-cost {
+        margin-bottom: 81px;
+    }
+    
+    .freelancer-attitude {
+        padding-bottom: 181px;
+        margin-bottom: 54px;
+    }
+    
+    .free-creative p {
+        max-width: 160px;
+    }
+    
+    .free-creative-title {
+        margin-bottom: 138px;
+    }
+    
+    .free-creative-philosophy {
+        padding-bottom: 37px;
+        margin-bottom: 53px;
+    }
+    
+    .free-creative-design-level {
+        margin-bottom: 49px;
+    }
+    
+    .free-creative-cost,
+    .free-creative-attitude {
+        margin-bottom: 49px;
+    }
+    
+    .others p {
+        max-width: 160px;
+    }
+    
+    .others-title {
+        margin-bottom: 63px;
+    }
+    
+    .others-philosophy {
+        margin-bottom: 49px;
+    }
+    
+    .others-design-level {
+        padding-bottom: 20px;
+        margin-bottom: 52px;
+    }
+    
+    .others-cost {
+        margin-bottom: 65px;
+    }
+    
+    .others-attitude {
+        margin-bottom: 51px;
+    }
+    
+    .philosophy-second,
+    .design-level-second,
+    .cost-second,
+    .attitude-second,
+    .time-second {
+        display: block;
+        position: absolute;
+        font-family: Kopeek-Book;
+        font-size: 20px;
+        line-height: 22px;
+        color: #fff;
+        background-color: #2B59C3;
+        border-radius: 5px;
+        width: 100%;
+        padding-left: 15px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+    
+    .philosophy-second {
+        top: 126px;
+    }
+    
+    .design-level-second {
+        top: 359px;
+    }
+    
+    .cost-second {
+        top: 485px;
+    }
+    
+    .attitude-second {
+        top: 682px;
+    }
+    
+    .time-second {
+        top: 934px;
+    }
+    
+    /*QUALITY-ASSURANCE-SECTION*/
+    
+    .quality-assurance-section {
+        background-image: url("../images/quality-assurance-bg-768.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 38px;    
+    }
+    
+    .quality-assurance-title {
+        font-size: 45px;
+        line-height: 45px;
+        max-width: 400px;
+        padding-left: 5px;
+        margin-bottom: 40px;
+        
+    }
+    
+    .quality-assurance-numbers {
+        padding-bottom: 0;
+    }
+    
+    .quality-assurance-number-1 {
+        margin-right: 209px;
+    }
+    
+    .quality-assurance-number-2 {
+        margin-right: 207px;
+    }
+    
+    .quality-assurance-number-4 {
+        margin-top: 217px;
+        margin-right: 185px;
+    }
+    
+    .quality-assurance-number-5 {
+        margin-left: 23px;
+    }
+    
+    .quality-assurance-text p {
+        margin-top: -284px;
+        padding-bottom: 21px;
+    }
+    
+    .quality-assurance-text-1 {
+        margin-right: 85px;
+    }
+    
+    .quality-assurance-text-2 {
+        margin-right: 90px;
+    }
+    
+    .quality-assurance-text-3 {
+        margin-right: 0;
+        margin-top: -64px;
+    }
+    
+    .quality-assurance-text-4 {
+        margin-top: -41px !important;
+        margin-left: 40px;
+        margin-right: 48px;
+    }
+    
+    .quality-assurance-text-5 {
+        max-width: 382px;
+        margin-top: -45px !important;
+    }
+    
+    /*FEEDBACK-SECTION*/
+
+    .feedback-section {
+        padding-top: 120px;
+    }
+    
+    .feedback-username-input,
+    .feedback-tel-input {
+        max-width: 450px;
+        padding-right: 256px;
+    }
+    
+    .contacts-title {
+        margin-top: 60px;
+    }
+    
+    .contacts-text,
+    .tel-contact {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    
+    /*FOOTER*/
+
+    .footer {
+        padding-top: 117px;
+        padding-bottom: 67px;
+        position: relative;
+    }
+    
+    .footer-column-1 {
+        margin-bottom: 0;
+        margin-left: -11px;
+        padding-left: 13px;
+        padding-top: 7px;
+    }
+    
+    .footer-column-2 {
+        margin-top: 66px;
+        margin-left: -9px;
+        max-width: 219px;
+    }
+    
+    .footer-column-3 {
+        margin-top: 33px;
+        margin-left: -7px;
+    }
+    
+    .footer-column-4 {
+        margin-top: 33px;
+        margin-left: -9px;
+    }
+    
+    .copyright {
+        position: absolute;
+        top: 419px;
     }
 }
